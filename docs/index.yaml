@@ -2,7 +2,30 @@ apiVersion: v1
 entries:
   vault:
   - apiVersion: v2
-    created: "2020-05-11T14:38:18.696889681+01:00"
+    appVersion: 1.5.4
+    created: "2020-10-28T22:06:08.710429791Z"
+    description: Official HashiCorp Vault Chart
+    digest: 6205c53c5373bf57a3b1e45510866734be00b84801a29d37b44359827cf1f7e9
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    urls:
+    - vault-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
+    created: "2020-10-28T22:06:08.706821999Z"
     description: Install and configure Vault on Kubernetes.
     digest: 937952362a72b4fadef1f4730565cc5e8a2f69b03fd9436b587a7de83c2aee45
     home: https://www.vaultproject.io
@@ -16,7 +39,7 @@ entries:
     - vault-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v2
-    created: "2020-05-11T14:38:18.694980781+01:00"
+    created: "2020-10-28T22:06:08.704187446Z"
     description: Install and configure Vault on Kubernetes.
     digest: d2f062b1a81267c4fe0252dbf0ab7205047476bf2fab7a69267237bb59e4ac56
     home: https://www.vaultproject.io
@@ -29,4 +52,4 @@ entries:
     urls:
     - vault-0.3.3.tgz
     version: 0.3.3
-generated: "2020-05-11T14:38:18.676061077+01:00"
+generated: "2020-10-28T22:06:08.702209261Z"
